@@ -2,6 +2,7 @@
 
 This repository is the official implementation of Parameter-Free Hypergraph Neural Network for Few-Shot Node Classification. 
 
+论文源代码地址：https://github.com/chaewoonbae/ZEN/
 
 ## Dataset description
 
@@ -18,7 +19,7 @@ We provide ten hypergraph benchmark datasets for evaluating accuracy, and one ad
 | 20News     | `20newsW100`        | 16,242     | 100        | 4            | 100            |
 | MN40       | `ModelNet40`        | 12,311     | 12,311     | 40           | 100            |
 | Congress   | `congress-bills`    | 1,718      | 83,105     | 2            | 100            |
-| Walmart    | `walmart-trips`     | 88,860     | 69,906     | 11           | 100            |
+| Walmart    | `walmart-trips`     | 88,860     | 69,906     | 11           | 11             |
 | Senate     | `senate-committees` | 282        | 315        | 2            | 100            |
 | House      | `house-committees`  | 1,290      | 340        | 2            | 100            |
 
@@ -35,7 +36,7 @@ We provide ten hypergraph benchmark datasets for evaluating accuracy, and one ad
 To evaluate ZEN on Cora, run:
 
 ```eval
-python main.py
+python main.py --data cora
 ```
 
 ### Additional arguments
